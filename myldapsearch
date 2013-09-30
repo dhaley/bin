@@ -1,0 +1,2 @@
+#!/bin/sh
+/usr/bin/ldapsearch $* | perl -p0e 's/\n //g'
